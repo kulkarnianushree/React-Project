@@ -1,0 +1,40 @@
+.box {
+    width: 70%; /* Reduced width for a more compact look */
+    height: 6rem; /* Slightly increased height */
+    background-color: #34495e; /* Darker gray with a hint of blue */
+    color: white; /* White text for better contrast */
+    margin-top: 4rem; /* Adjusted margin for better spacing */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center text */
+    font-family: Arial, sans-serif; /* Modern font */
+    font-size: 1.2rem; /* Slightly larger font size */
+    padding: 1rem 2rem; /* Added padding */
+}
+
+.button {
+    margin-top: 2rem; /* Increased top margin */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    width: 10rem; /* Increased width */
+    height: 2.5rem; /* Increased height */
+    background-color: #2980b9; /* Attractive blue color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-family: Arial, sans-serif; /* Consistent font */
+    font-size: 1rem; /* Medium font size */
+    transition: background-color 0.3s; /* Smooth transition */
+    padding: 0.5rem 1rem; /* Added padding */
+    display: block; /* Block display for centering */
+    text-align: center; /* Center text */
+}
+
+.button:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+}

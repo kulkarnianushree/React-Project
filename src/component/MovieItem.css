@@ -1,0 +1,32 @@
+.movie-item {
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Padding around the content */
+    margin: 1rem 0; /* Margin for spacing between items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.movie-item:hover {
+    transform: scale(1.02); /* Slightly increase size on hover */
+}
+
+.movie-item p {
+    font-size: 1.5rem; /* Larger font size for title */
+    font-weight: bold; /* Bold font weight for title */
+    margin: 0; /* Remove default margin */
+    color: goldenrod /* Darker text color for better readability */
+}
+
+.movie-item .release-date {
+    font-size: 1rem; /* Normal font size for release date */
+    color: #7f8c8d; /* Gray color for release date */
+    margin-top: 0.5rem; /* Margin above release date */
+}
+
+.movie-item .opening-text {
+    font-size: 1rem; /* Normal font size for opening text */
+    color: #34495e; /* Darker gray color for better readability */
+    margin-top: 0.5rem; /* Margin above opening text */
+    line-height: 1.5; /* Better line spacing for readability */
+}
