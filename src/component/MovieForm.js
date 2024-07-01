@@ -66,7 +66,7 @@ const MovieForm = (props) => {
         />
       </div>
       <div>
-        <button>Add Movies</button>
+        <button type="submit">Add Movies</button>
       </div>
     </form>
   );
